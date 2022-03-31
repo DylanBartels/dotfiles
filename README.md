@@ -1,6 +1,10 @@
 # dotfiles
 My dotfiles and new mac system installation script.
 
+## Some links
+
+- https://dev.to/lucaskuhn/mac-setup-for-a-developer-in-2020-26ak
+- https://sourabhbajaj.com/mac-setup/Vim/README.html
 
 ## Post Installation Setup Instructions
 Afer you have run the script, please complete the following steps to finish setting up your computers:
