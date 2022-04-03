@@ -5,6 +5,7 @@ My dotfiles and new mac system installation script.
 
 - https://dev.to/lucaskuhn/mac-setup-for-a-developer-in-2020-26ak
 - https://sourabhbajaj.com/mac-setup/Vim/README.html
+- https://github.com/NvChad/NvChad
 
 ## Post Installation Setup Instructions
 Afer you have run the script, please complete the following steps to finish setting up your computers:
@@ -18,4 +19,5 @@ Afer you have run the script, please complete the following steps to finish sett
    [generate key]: https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
    [add to github]: https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
    
-   <br>
+   <br
+
