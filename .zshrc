@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/dylan/.oh-my-zsh"
+export ZSH="/Users/dylan.bartels/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -105,21 +105,10 @@ alias pipuninstall="pip freeze | xargs pip uninstall -y"
 # Custom
 
 # Pyenv
-eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
-
-# Poetry
-export PATH="$HOME/.poetry/bin:$PATH"
-
-# Java
-export JAVA_HOME=/Users/dylan/jdk/jdk-17.0.1.jdk/Contents/Home
-export PATH=$JAVA_HOME/bin:$PATH
 
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /opt/homebrew/bin/terraform terraform
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/dylan/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/dylan/Downloads/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/dylan/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/dylan/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+# Brew
+export PATH=/opt/homebrew/bin:$PATH
