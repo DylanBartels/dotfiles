@@ -1,5 +1,22 @@
 # dotfiles
+
 My dotfiles and new mac system installation script.
+
+<br>
+
+## Quick Instructions
+
+   1. Make the script executable:
+      chmod +x ./setup-new-computer.sh
+
+   2. Run the script:
+      ./setup-new-computer.sh
+
+   3. Some installs will need your password
+
+   4. You will be promted to fill out your git email and name. 
+      Use the email and name you use for Github
+
 
 ## Some links
 
